@@ -143,16 +143,15 @@ Four sections, each of which should be nicely formatted and responsive
 * Grid layout
 * Footer
 
-__*Now, to complete the Bootstrap workshop, add TWO extra features on your own. We have a few suggestions below, but feel free to pick something not listed if you wish:*__
+*If you are done and have extra time, try to add extra features on your own. We have a few suggestions below, but feel free to pick something not listed if you wish:*
 
 1. Tabs/Pills
 2. Modals
 3. Buttons
 4. Dropdown menu in the navbar
 5. Incorporate some of Bootstrap's unique typography
-6. Carousels (advanced – counts as two)
-7. Scrollspy (advanced – counts as two)
-
+6. Carousels (advanced)
+7. Scrollspy (advanced)
 
 __Be creative!__ One of the best parts about Bootstrap is that there are an endless amount of features and classes already built-in, and extra ones are being added with every new version.
 
