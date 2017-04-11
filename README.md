@@ -76,7 +76,9 @@ For the actual display button, create a "hamburger" button using the `.icon-bar`
 
 Now, the content that you want to actually be collapsed when the screen is narrow needs to be wrapped in a `<div>` with classes `collapse` and `navbar-collapse`. For example, if you want to remove everything except for the header, wrap the two unordered lists in a div with those classes.
 
-Lastly, to connect the hamburger button to the collapsing content, add and match the `data-target` attribute of your button to the `id` of your collapsing div. For those of you who completed the CSS Checkbox Hack for Lab 1, this step is similar to linking the `input` and `label` elements. Just like that, you have a responsive menu navigation bar!
+Lastly, to connect the hamburger button to the collapsing content, add and match the `data-target` attribute of your button to the `id` of your collapsing div (make sure to add a "#" before your data-target value so that it knows to look for the id of the collapsing div).
+
+For those of you who completed the CSS Checkbox Hack for Lab 1, this step is similar to linking the `input` and `label` elements. Just like that, you have a responsive menu navigation bar!
 
 As a final touch, add icons to the two right items. Inside these two list item tags and within the anchor tags, add `<span class="glyphicon glyphicon-user"></span>&nbsp;` and `<span class="glyphicon glyphicon-log-in"></span>&nbsp;` (note the space codes separating the icon and the following text), respectively.
 
